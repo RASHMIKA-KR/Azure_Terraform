@@ -1,0 +1,28 @@
+
+
+location            = "East US"
+resource_group_name = "dev-resource-group"
+workspace_name      = "dev-workspace"
+vnet_name           = "dev-vnet"
+subnet_name         = "dev-subnet"
+nsg_name            = "dev-nsg"
+nsgr_in_name        = "dev-nsgr-in"
+nsgr_out_name       = "dev-nsgr-out"
+public_ip_name      = "dev-ip"
+public_ip2_name      = "load-balancer-ip"
+allocation_method   =  "Static"
+bastion_name        = "dev-bastion"
+lb_name             = "intact-load-balancer"
+lb_rule             = "intact-lb-rule"
+lb_probe            = "intact-probe"
+lb_pool             = "BackendAddressPool"
+firewall_name       = "firewall"
+public_ip3_name     = "firwall-ip"
+sku_name            = "AZFW_VNet"
+sku_tier            = "Standard"
+interface_name      ="dev-interface"
+vm_name             = "dev-vm"
+vm_user             ="devvmuser"
+vm_password         ="dev@VM1password"
+vm_caching          ="ReadWrite"                #possible values are None,ReadWrite,ReadOnly('diff_disk_setting' can be set for ReadOnly )
+vm_storage_account_type="Standard_LRS"          #possible values are Standard_LRS,StandardSSD_LRS,Premium_LRS,StandardSSD_ZRS,Premium_ZRS
